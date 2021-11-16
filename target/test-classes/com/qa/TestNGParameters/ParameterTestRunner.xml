@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="ParameterTestNG" verbose="1" >
+ 
+  
+  <test name="Test1" >
+  <parameter name="username" value="Rakesh12"></parameter>
+  <parameter name="password" value="sonal1"></parameter>
+    <classes>
+       <class name="com.qa.TestNGParameters.ParameterizationXML" />
+    </classes>
+  </test> 
+  
+ 
+  
+  <test name="Test2" >
+  <parameter name="username" value="Rakesh13"></parameter>
+  <parameter name="password" value="sonal2"></parameter>
+    <classes>
+       <class name="com.qa.TestNGParameters.ParameterizationXML" />
+    </classes>
+  </test> 
+  
+  
+  
+  <test name="Test3" >
+  <parameter name="username" value="Rakesh14"></parameter>
+  <parameter name="password" value="sonal3"></parameter>
+    <classes>
+       <class name="com.qa.TestNGParameters.ParameterizationXML" />
+    </classes>
+  </test> 
+  
+  
+  
+  <test name="Test4" >
+  <parameter name="username" value="Rakesh15"></parameter>
+  <parameter name="password" value="sonal4"></parameter>
+    <classes>
+       <class name="com.qa.TestNGParameters.ParameterizationXML" />
+    </classes>
+  </test> 
+  
+</suite>
