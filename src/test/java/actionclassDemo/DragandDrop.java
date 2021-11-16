@@ -24,7 +24,7 @@ public class DragandDrop {
 	
 	Actions a = new Actions(driver);
 	
-	//a.dragAndDrop(e1, e2).perform();
+	a.dragAndDrop(e1, e2).perform();
 	
 	a.clickAndHold(e1).moveToElement(e2).release().perform();
 	
