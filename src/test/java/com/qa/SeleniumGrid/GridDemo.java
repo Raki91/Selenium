@@ -30,7 +30,7 @@ public class GridDemo {
 		driver.get("https://www.wikipedia.org/");
 		
 		String title =driver.getTitle();
-		System.out.println(" the title of the page is :" + title);
+		System.out.println(" New Chnage in git :" + title);
 
 	}
 
